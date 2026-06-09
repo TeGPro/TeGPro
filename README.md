@@ -1,4 +1,4 @@
-# 🎯 Georgii | ML, CV & NLP Engineer
+# 🎯 George | ML, CV & NLP Engineer
 
 Machine Learning Engineer specializing in Computer Vision (CV) and Natural Language Processing (NLP). Experienced in designing, training, and optimizing deep learning architectures to solve complex, real-world problems.
 
