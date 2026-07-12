@@ -13,6 +13,7 @@
 | **[Russian Toxicity Classifier](https://github.com/TeGPro/russian-toxic-classifier)** [![Live Demo](https://img.shields.io/badge/🤗-Live_Demo-yellow)](https://huggingface.co/spaces/tegpro/russian-toxic-classifier) | Fine-tuned RuBERT (`rubert-tiny2`) with a custom head over `[CLS]`, trained on ~300k comments. Modular code, deployed as a Gradio service. | **96% accuracy** · live demo |
 | **[Plant Disease Classifier](https://github.com/TeGPro/apple-disease-classification)** | CV pipeline in PyTorch — custom CNN vs. ResNet/EfficientNet via transfer learning, with augmentation and overfitting control. | **~95% accuracy** |
 | **[User Action Prediction](https://github.com/TeGPro/user-action-prediction)** | Tabular binary classification served as a **FastAPI microservice** (Pydantic validation, rate limiting, OWASP API Top-10 practices). | real-time inference |
+| **[FastAPI Docs RAG](https://github.com/TeGPro/fastapi-docs-rag)** | RAG QA system built **from scratch, no LangChain** — Markdown parsing, heading-aware chunking, sentence-transformers + FAISS semantic search, grounded LLM answers (Llama 3.3 70B via Groq) with source citation and refusal. CLI + FastAPI. | **hit-rate@5 = 0.92** · eval harness |
 
 > 👉 Try the toxicity classifier live: **[huggingface.co/spaces/tegpro/russian-toxic-classifier](https://huggingface.co/spaces/tegpro/russian-toxic-classifier)**
 
