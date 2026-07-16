@@ -57,8 +57,8 @@ Core tools: Python, PyTorch, Hugging Face Transformers, scikit-learn, pandas, Nu
 
 ## 📫 Contacts
 
-[](https://t.me/GeorgiiML)
-[](mailto:georgelozovoi@gmail.com)
-[](https://huggingface.co/tegpro)
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?logo=telegram&logoColor=white)](https://t.me/GeorgiiML)
+[![Email](https://img.shields.io/badge/Email-EA4335?logo=gmail&logoColor=white)](mailto:georgelozovoi@gmail.com)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/tegpro)
 
 *Open to internships and junior roles in ML / Data Science — feel free to reach out.*
