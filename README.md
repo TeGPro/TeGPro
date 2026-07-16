@@ -1,79 +1,64 @@
-# George Lozovoy
+# 👋 George Lozovoy — Data Science / Machine Learning Intern
 
-**Data Science / Machine Learning Intern**  
-3rd-year AI student at Bauman Moscow State Technical University.
+3rd-year **AI student at Bauman Moscow State Technical University**, building portfolio ML projects in **NLP, Computer Vision, RAG, and tabular data** with Python, PyTorch, scikit-learn, and FastAPI.
 
-I build educational ML projects in NLP, Computer Vision, RAG, and tabular data using Python, PyTorch, scikit-learn, and FastAPI.
+🎯 **Open to an ML / Data Science internship.**
 
-Open to a Data Science / Machine Learning internship.
+---
 
-## Featured Projects
+## 🚀 Featured Projects
 
-### [FastAPI Docs RAG](https://github.com/TeGPro/fastapi-docs-rag)
+| Project | What it is | Result |
+| --- | --- | --- |
+| **[Russian Toxicity Classifier](https://github.com/TeGPro/russian-toxic-classifier)** [](https://huggingface.co/spaces/tegpro/russian-toxic-classifier) | Fine-tuned RuBERT (`rubert-tiny2`) with a custom head over `[CLS]` on ~300k comments. Includes a PyTorch dataset, batched tokenization, training, and evaluation scripts. | **96% accuracy** · live demo |
+| **[Plant Disease Classifier](https://github.com/TeGPro/apple-disease-classification)** | Computer Vision project in PyTorch: a custom CNN with `Conv2d`, `BatchNorm`, and `Dropout` for four PlantVillage classes; includes an inference script and saved weights. | **~95% validation accuracy** |
+| **[User Action Prediction](https://github.com/TeGPro/user-action-prediction)** | Tabular binary classification on web-session data: preprocessing, feature engineering, model comparison with ROC-AUC cross-validation, and FastAPI inference endpoints. | FastAPI inference |
+| **[FastAPI Docs RAG](https://github.com/TeGPro/fastapi-docs-rag)** | RAG QA system for FastAPI documentation: document chunking, sentence-transformers embeddings, FAISS retrieval, and LLM answer generation through Groq. Includes FastAPI, a smoke test, and evaluation artifacts. | smoke test · evaluation questions |
 
-**Python, FastAPI, Sentence Transformers, FAISS, Groq**
+> 👉 Try the toxicity classifier live: **[huggingface.co/spaces/tegpro/russian-toxic-classifier](https://huggingface.co/spaces/tegpro/russian-toxic-classifier)**
 
-RAG service for answering questions about FastAPI documentation.
+---
 
-- Built a pipeline for document chunking, dense embeddings, FAISS retrieval, and LLM answer generation.
-- Structured the project into API, indexing, retrieval, generation, and evaluation components.
-- Added a smoke test and evaluation questions for checking retrieval and answer quality.
+## 🛠 Tech Stack
 
-### [Russian Toxicity Classifier](https://github.com/TeGPro/russian-toxic-classifier)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=black)
+![scikitlearn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
+![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white)
 
-**Python, PyTorch, Hugging Face Transformers**
+Core tools: Python, PyTorch, Hugging Face Transformers, scikit-learn, pandas, NumPy, FastAPI, FAISS, Git, and Jupyter. Currently learning: CatBoost, Docker, and SQL.
 
-Binary classifier for toxic Russian-language comments.
+---
 
-- Fine-tuned `cointegrated/rubert-tiny2` with a custom classification head on approximately 300k comments.
-- Implemented a PyTorch dataset, batched tokenization, training, and evaluation scripts.
-- Reported project result: **96.0% accuracy**, loss **0.147**.
+## 🧠 Engineering Focus
 
-[Live demo on Hugging Face Spaces](https://huggingface.co/spaces/tegpro/russian-toxic-classifier)
+- **NLP:** fine-tuning encoder models (BERT / RuBERT), custom classification heads, and batched tokenization.
+- **Computer Vision:** custom CNNs in PyTorch, training loops, validation, and model inference.
+- **RAG:** document chunking, dense retrieval with sentence-transformers and FAISS, and FastAPI services.
+- **Classic ML:** data preprocessing, feature engineering, baseline model comparison, and ROC-AUC cross-validation.
+- Extra angle: course in **Application Security Engineering** (Bauman) — interested in data integrity and safer ML services.
 
-### [User Action Prediction](https://github.com/TeGPro/user-action-prediction)
+---
 
-**Python, pandas, scikit-learn, FastAPI**
+## 📚 Currently Learning
 
-Tabular binary classification project based on web-session data.
+- **LLM engineering:** RAG evaluation, retrieval quality, embeddings, and vector search.
+- **Transformer internals:** multi-head attention, causal masking, and positional encodings in PyTorch.
+- **SQL, statistics, and algorithms** — strengthening interview fundamentals.
+- **Testing, Docker, and CI** for reproducible ML services.
 
-- Built data-preprocessing and feature-engineering steps.
-- Compared baseline models with cross-validation.
-- Exposed model inference through a FastAPI service.
+---
 
-### [Apple Leaf Disease Classification](https://github.com/TeGPro/apple-disease-classification)
+## 📫 Contacts
 
-**Python, PyTorch, TorchVision**
+[](https://t.me/GeorgiiML)
+[](mailto:georgelozovoi@gmail.com)
+[](https://huggingface.co/tegpro)
 
-Computer Vision project for classifying four apple-leaf conditions.
-
-- Trained a custom CNN using `Conv2d`, `BatchNorm`, and `Dropout`.
-- Added a `predict.py` inference script and saved model weights.
-- Reported validation accuracy: **~94.8%**.
-
-## Skills
-
-**ML / DL:** PyTorch, scikit-learn, Hugging Face Transformers, TorchVision  
-**Data:** pandas, NumPy, EDA, data preprocessing, feature engineering  
-**RAG / Backend:** FAISS, FastAPI, REST API  
-**Tools:** Git, GitHub, Jupyter  
-**Domains:** NLP, Computer Vision, tabular ML, RAG
-
-## Education
-
-**Bauman Moscow State Technical University**  
-BSc in Artificial Intelligence, 2024-2028
-
-## Currently Learning
-
-- SQL and algorithms for technical interviews
-- Statistics, probability, and experiment design
-- Reliable ML evaluation: cross-validation, data leakage prevention, and classification metrics
-- Testing, Docker, and CI for ML services
-
-## Contacts
-
-- Telegram: [@GeorgiiML](https://t.me/GeorgiiML)
-- Email: [georgelozovoi@gmail.com](mailto:georgelozovoi@gmail.com)
-- GitHub: [github.com/TeGPro](https://github.com/TeGPro)
-- Hugging Face: [huggingface.co/tegpro](https://huggingface.co/tegpro)
+*Open to internships and junior roles in ML / Data Science — feel free to reach out.*
