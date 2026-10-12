@@ -14,6 +14,7 @@
 | **[Plant Disease Classifier](https://github.com/TeGPro/apple-disease-classification)** | Computer Vision project in PyTorch: a custom CNN with `Conv2d`, `BatchNorm`, and `Dropout` for four PlantVillage classes; includes an inference script and saved weights. | **~95% validation accuracy** |
 | **[User Action Prediction](https://github.com/TeGPro/user-action-prediction)** | Tabular binary classification on web-session data: preprocessing, feature engineering, model comparison with ROC-AUC cross-validation, and FastAPI inference endpoints. | FastAPI inference |
 | **[FastAPI Docs RAG](https://github.com/TeGPro/fastapi-docs-rag)** | RAG QA system for FastAPI documentation: document chunking, sentence-transformers embeddings, FAISS retrieval, and LLM answer generation through Groq. Includes FastAPI, a smoke test, and evaluation artifacts. | smoke test · evaluation questions |
+| **[Store Sales Forecasting](https://github.com/TeGPro/store-sales-forecast)** | Sales forecasting on Kaggle store data with XGBoost: calendar and holiday features, oil prices, categorical encoding, and temporal validation with RMSLE. Includes training, saved model artifacts, batch prediction, and a FastAPI endpoint. | FastAPI inference · batch forecasting |
 
 > 👉 Try the toxicity classifier live: **[huggingface.co/spaces/tegpro/russian-toxic-classifier](https://huggingface.co/spaces/tegpro/russian-toxic-classifier)**
 
